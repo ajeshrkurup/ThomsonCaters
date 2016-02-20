@@ -1,0 +1,222 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #595959;
+	background-image: url(Images/pistachio-cupcake-pattern-950.png);
+}
+
+.clear-div {
+    clear: both;
+}
+
+#main-container {
+	width: 80%;
+	margin: 20px auto;   
+}
+
+header {
+    height: 270px;
+    background-color: #ffecb3;
+    background-image: url(Images/simple-scales.gif);
+    padding-top: 10px;
+}
+
+header img {
+    float: left;
+    height: 80px;
+    width: 120px;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 10px 0 0 0;
+    font-size: 48px;
+    margin-bottom: 50px; 
+    color: #00e600;
+}
+
+header h2 {
+    text-align: right;
+    padding: 10px;
+    margin-right: 10px;
+    color: #b3ffb3;
+}
+
+header nav {
+    height: 58px;
+    background-color: #404040;
+    opacity: .7;
+    color: azure;
+}
+
+nav ul {
+    text-align: center;
+    height: 50%;
+    padding: 14px 0 14px 0 ;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px 12px 22px 12px;    
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: #00cc00;
+    background-color: rgba(0,0,0,.3);
+}
+
+#slider {
+	border: white solid 3px;
+	border-radius: 10px;
+	overflow: hidden;
+	height: 360px;
+	width: 100%;
+    margin-left: -3px;;
+}
+
+.slides img {
+	height: 360px;
+	width: 100%;
+}
+
+#side-panel {
+    margin-top: 10px;
+    
+}
+
+#left-side {
+    float: left;
+    height: 500px;
+    width: 60%;
+    padding: 20px 0 0 15px;
+    font-size: 18px;
+    background-color:#4F2411;
+    border-radius: 5px;
+    
+    
+}
+
+#left-side h1 {
+    padding: 2px 0px;
+    margin: 5px 0 10px 0;
+    font-size: 24px;
+    color: #00cc00;
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+}
+
+#left-side p {
+    margin: 3px 12px;
+    line-height: 1.6;
+    letter-spacing: .8px;
+    font-weight: bold;
+    color:#C4AD9A
+}
+
+#left-side p span {
+    margin-left: 15px;
+}
+
+#right-side {
+    float: right;
+    width: 35%;
+    height: 500px;
+    padding: 20px 0 0 15px;
+    font-size: 20px;
+    color:darkturquoise;
+    background-color:#492718;
+    border-radius: 5px;
+}
+
+#right-side h3, #right-side h4, #right-side h5, #right-side h6, #right-side p {
+    padding: 3px 2px 3px 2px;
+    line-height: 1.5;
+}
+
+#right-side h3, #right-side h4 {
+    text-decoration: underline;
+}
+
+#right-side h5, #right-side h6, #right-side p {
+    font-size: 18px;
+}
+
+#right-side h6, #right-side p {
+    color: chartreuse;
+}
+
+#right-side a {
+    margin: 20px 0 20px 70px;
+    display: inline-block;    
+}
+
+#special-content {
+    height: 350px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #492418; 
+    border-radius: 10px;
+}
+
+#special-content h1 {
+    padding: 2px 0px;
+    margin: 5px 0px;
+    font-size: 26px;
+    color: #00cc00;
+    letter-spacing: 1.5px; 
+    text-decoration: underline;
+}
+
+#special-content ul {
+    list-style: none;
+    padding: 5px;
+    color: darkturquoise;
+}
+
+#special-content ul li {
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#special-content ul li h2 {
+    font-size: 20px;
+}
+
+#special-content ul li p {
+    padding: 5px;
+    font-size: 18px;
+}
+
+footer {
+    
+    height: 50px;
+    width: 100%;
+    background-color: #404040;
+    opacity: .8;
+    color: azure;   
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: #b3ffb3;
+    
+}
+
+footer div {
+    padding: 10px;
+}
+
+footer div a {
+    text-decoration: none;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: #b3ffb3;    
+}
+
