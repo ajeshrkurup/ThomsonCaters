@@ -4,6 +4,7 @@
           <meta charset="utf-8">
           <title>Thomson Catering - Kerala</title>
           <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="services.css">
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
           <script type="text/javascript" src="script.js"></script>	
       </head>
@@ -17,17 +18,16 @@
                   <h2>Ph:0469-0000000 / 0471-0000000</h2>
                   <nav>
                       <ul>
-                          <li>HOME</li>
-                          <li>ABOUT</li>
-                          <li>SERVICES</li>
-                          <li>MENUS</li>
-                          <li>CONTACT</li>
+                          <li><a href="index.html" title="Home Page">HOME</a></li>
+                          <li><a href="about.html" title="About">ABOUT</a></li>
+                          <li><a href="services.html" title="Services">SERVICES</a></li>
+                          <li><a href="menu.html" title="Menu">MENUS</a></li>
+                          <li><a href="#" title="Contact us">CONTACT</a></li>
                       </ul>
                   </nav>
               </header>
               
               <section id="content-slider"><!--Content Slider -->
-                  <img src="Images/arrow-left.png" alt="Previous Button" id="prev">
                   <div id="slider">
                       <div class="slides">
                           <img src="Images/cat1.jpg" alt="Image-1">
@@ -42,34 +42,47 @@
       					  <img src="Images/cat4.jpeg" alt="Image-4">
       			 	  </div>
       			  </div> <!--slider -->
-                  <img src="Images/arrow-right.png" alt="Next Button" id="next">
               </section> <!--Content Slider -->
-              
-              <div class="clear"></div>
-              
-              <section id="service-content">
-                  <h1>Our Services</h1>
-                  <aside id="left-panel">
-                      <ul>
-                          <li>Catering Service</li>
-                          <li>Lunch Delivery</li>
-                          <li>Dinner Delivery</li>
-                          <li>Chicken Corner</li>
-                          <li>Nadan Thattukada</li>
-                          <li>Kerala Sadya</li>
-                          <li>Onsite Dosa Party</li>
-                      </ul>
-                  </aside>
+                
+              <section id="service-category">
+                  <table>
+                      <caption>OUR SERVICES</caption>
+                      <tr>
+                          <td>Lunch Delivery</td>
+                          <td>Birthday Party</td>  
+                      </tr>
+                      <tr>
+                          <td>Dinner Delivery</td>
+                          <td>Dinner Party</td>  
+                      </tr>
+                      <tr>
+                          <td>Catering Service</td>
+                          <td>Party Hall Decoration</td>  
+                      </tr>
+                      <tr>
+                          <td>Chicken Corner</td>
+                          <td>Stage Decoration</td>  
+                      </tr>
+                      <tr>
+                          <td>Dosa Party</td>
+                          <td>Music & Entertainment</td>  
+                      </tr>
+                      <tr>
+                          <td>Nadan Thattukada</td>
+                          <td>Special Ballon Decoration</td>  
+                      </tr>
+                      <tr>
+                          <td>Kerala Sadya</td>
+                          <td></td>  
+                      </tr>
+                     
+                      
+                      
+                  </table>
                   
-                  <aside id="right-panel">
-                      <ul>
-                          <li>Stage Decoration</li>
-                          <li>Party Hall Decoration</li>
-                          <li>Music & Entertainment</li>
-                          <li>Special Balloon Decoration</li>
-                      </ul>
-                  </aside>
               </section>
+              
+              <div class="clear-div"></div>
               
               <section id="special-content">
                   <h1>Our Specialities</h1>
@@ -84,17 +97,18 @@
                       <li>Hall Decoration</li>
                   </ul>
               </section>
-              
-              
-              <footer>
+                        
+          </div> <!--Main-container -->
+          
+          <footer>
                   <p>&copy; Thomson Caters</p>
                   <div class="footer-content">
                       <a title="Privacy policy" href="#">Privacy policy</a>
                       <a title="Terms of service" href="#">Terms of Service</a>
                   </div>      
               </footer>
-              
-          </div> <!--Main-container -->
           
       </body>
   </html>
+
+

@@ -1,0 +1,84 @@
+/* Some extra styling for about us page */
+
+#about-side-panel {
+    margin-top: 10px;   
+}
+
+#about-left-side {
+    float: left;
+    height: 600px;
+    width: 60%;
+    padding: 20px 0 0 15px;
+    font-size: 17px;
+    background-color:#4F2411;
+    border-radius: 5px;
+    
+    
+}
+
+#about-left-side h1 {
+    padding: 2px 0px;
+    margin: 5px 0 10px 0;
+    font-size: 24px;
+    color: #00cc00;
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+}
+
+#about-left-side p {
+    margin: 3px 12px;
+    line-height: 1.5;
+    letter-spacing: .8px;
+    font-weight: bold;
+    color:#C4AD9A
+}
+
+#about-left-side p span {
+    margin-left: 15px;
+    font-size: 20px;
+    color: chartreuse;
+}
+
+#about-right-side {
+    float: right;
+    width: 35%;
+    height: 600px;
+    padding: 20px 0 0 15px;
+    font-size: 20px;
+    color:darkturquoise;
+    background-color:#492418;
+    border-radius: 5px;
+}
+
+#about-right-side h1 {
+    padding: 2px 0px;
+    margin: 5px 0px;
+    font-size: 26px;
+    color: #00cc00;
+    letter-spacing: 1.5px; 
+    text-decoration: underline;
+}
+
+#about-right-side ul {
+    list-style: none;
+    padding: 5px;
+    
+}
+
+#about-right-side ul li {
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+    color: chartreuse;
+}
+
+#about-right-side ul li h2 {
+    font-size: 20px;
+}
+
+#about-right-side ul li p {
+    padding: 5px;
+    font-size: 18px;
+    color: darkturquoise;
+}
+
